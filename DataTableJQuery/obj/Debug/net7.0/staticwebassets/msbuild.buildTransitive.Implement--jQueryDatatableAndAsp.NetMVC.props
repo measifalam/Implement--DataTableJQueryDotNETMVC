@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Implement--jQueryDatatableAndAsp.NetMVC.props" />
+</Project>
