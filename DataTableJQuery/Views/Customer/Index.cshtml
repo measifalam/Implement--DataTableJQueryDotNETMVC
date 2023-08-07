@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DataTableJQuery.Models.Customer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table id="tblData" class="table table-bordered table-striped table-hover" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                FirstName 
+            </th>
+            <th>
+               LastName
+            </th>
+            <th>
+               Contact
+            </th>
+            <th>
+              Email
+            </th>
+            <th>
+               DateOfBirth
+            </th>
+           
+        </tr>
+    </thead>
+    
+</table>
+
+@section scripts{
+
+    <script src="~/js/customer.js"></script>
+}
